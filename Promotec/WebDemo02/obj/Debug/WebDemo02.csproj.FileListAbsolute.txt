@@ -1,0 +1,306 @@
+D:\Carpta\WebDemo02\WebDemo02\bin\WebDemo02.dll.config
+D:\Carpta\WebDemo02\WebDemo02\bin\WebDemo02.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\WebDemo02.pdb
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\csc.exe
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\csc.exe.config
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\csc.rsp
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\csi.exe
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\csi.exe.config
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\csi.rsp
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.AppContext.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Collections.Immutable.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Console.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.IO.Compression.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.IO.FileSystem.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.IO.Pipes.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Reflection.Metadata.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Security.AccessControl.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Security.Claims.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.ValueTuple.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Xml.XPath.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\vbc.exe
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\vbc.exe.config
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\vbc.rsp
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\VBCSCompiler.exe
+D:\Carpta\WebDemo02\WebDemo02\bin\roslyn\VBCSCompiler.exe.config
+D:\Carpta\WebDemo02\WebDemo02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\Microsoft.Web.Infrastructure.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\System.Web.Helpers.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\System.Web.Mvc.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\System.Web.Razor.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\System.Web.Webpages.Deployment.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\System.Web.Webpages.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\System.Web.Webpages.Razor.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\System.Web.Razor.xml
+D:\Carpta\WebDemo02\WebDemo02\bin\System.Web.Webpages.xml
+D:\Carpta\WebDemo02\WebDemo02\bin\System.Web.Webpages.Deployment.xml
+D:\Carpta\WebDemo02\WebDemo02\bin\System.Web.Webpages.Razor.xml
+D:\Carpta\WebDemo02\WebDemo02\bin\System.Web.Helpers.xml
+D:\Carpta\WebDemo02\WebDemo02\bin\System.Web.Mvc.xml
+D:\Carpta\WebDemo02\WebDemo02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Carpta\WebDemo02\WebDemo02\bin\es\System.Web.Razor.resources.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\es\System.Web.Webpages.resources.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\es\System.Web.Helpers.resources.dll
+D:\Carpta\WebDemo02\WebDemo02\bin\es\System.Web.Mvc.resources.dll
+D:\Carpta\WebDemo02\WebDemo02\obj\Debug\WebDemo02.csprojAssemblyReference.cache
+D:\Carpta\WebDemo02\WebDemo02\obj\Debug\WebDemo02.csproj.CoreCompileInputs.cache
+D:\Carpta\WebDemo02\WebDemo02\obj\Debug\WebDemo02.csproj.CopyComplete
+D:\Carpta\WebDemo02\WebDemo02\obj\Debug\WebDemo02.dll
+D:\Carpta\WebDemo02\WebDemo02\obj\Debug\WebDemo02.pdb
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\WebDemo02.dll.config
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\WebDemo02.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\WebDemo02.pdb
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\csc.exe
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\csc.exe.config
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\csc.rsp
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\csi.exe
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\csi.exe.config
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\csi.rsp
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.AppContext.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Console.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.Compression.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Claims.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.ValueTuple.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\vbc.exe
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\vbc.exe.config
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\vbc.rsp
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\VBCSCompiler.exe
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\System.Web.Helpers.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\System.Web.Mvc.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\System.Web.Razor.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.Razor.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\System.Web.Razor.xml
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.xml
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.Razor.xml
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\System.Web.Helpers.xml
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\System.Web.Mvc.xml
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Razor.resources.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Webpages.resources.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\obj\Debug\WebDemo02.csproj.CoreCompileInputs.cache
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\obj\Debug\WebDemo02.csproj.CopyComplete
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\obj\Debug\WebDemo02.dll
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\obj\Debug\WebDemo02.pdb
+C:\Users\ApoyoDevFS02\Downloads\trabajo\WebDemo02\WebDemo02\obj\Debug\WebDemo02.csprojAssemblyReference.cache
+D:\trabajo\WebDemo02\WebDemo02\bin\WebDemo02.dll.config
+D:\trabajo\WebDemo02\WebDemo02\bin\WebDemo02.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\WebDemo02.pdb
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\csc.exe
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\csc.exe.config
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\csc.rsp
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\csi.exe
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\csi.exe.config
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\csi.rsp
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.Managed.Core.targets
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.AppContext.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Collections.Immutable.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Console.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.Compression.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.FileSystem.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.Pipes.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Reflection.Metadata.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.AccessControl.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Claims.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Principal.Windows.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.ValueTuple.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Xml.XmlDocument.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Xml.XPath.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\vbc.exe
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\vbc.exe.config
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\vbc.rsp
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\VBCSCompiler.exe
+D:\trabajo\WebDemo02\WebDemo02\bin\roslyn\VBCSCompiler.exe.config
+D:\trabajo\WebDemo02\WebDemo02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\Microsoft.Web.Infrastructure.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\System.Web.Helpers.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\System.Web.Mvc.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\System.Web.Razor.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.Deployment.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.Razor.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\System.Web.Razor.xml
+D:\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.xml
+D:\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.Deployment.xml
+D:\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.Razor.xml
+D:\trabajo\WebDemo02\WebDemo02\bin\System.Web.Helpers.xml
+D:\trabajo\WebDemo02\WebDemo02\bin\System.Web.Mvc.xml
+D:\trabajo\WebDemo02\WebDemo02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Razor.resources.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Webpages.resources.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Helpers.resources.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Mvc.resources.dll
+D:\trabajo\WebDemo02\WebDemo02\obj\Debug\WebDemo02.csproj.CoreCompileInputs.cache
+D:\trabajo\WebDemo02\WebDemo02\obj\Debug\WebDemo02.csproj.CopyComplete
+D:\trabajo\WebDemo02\WebDemo02\obj\Debug\WebDemo02.dll
+D:\trabajo\WebDemo02\WebDemo02\obj\Debug\WebDemo02.pdb
+D:\trabajo\WebDemo02\WebDemo02\bin\EntityFramework.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\EntityFramework.SqlServer.dll
+D:\trabajo\WebDemo02\WebDemo02\bin\EntityFramework.xml
+D:\trabajo\WebDemo02\WebDemo02\bin\EntityFramework.SqlServer.xml
+D:\trabajo\WebDemo02\WebDemo02\obj\Debug\WebDemo02.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\WebDemo02.dll.config
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\WebDemo02.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\WebDemo02.pdb
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\csc.exe
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\csc.exe.config
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\csc.rsp
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\csi.exe
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\csi.exe.config
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\csi.rsp
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.AppContext.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Console.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.Compression.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Claims.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.ValueTuple.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\vbc.exe
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\vbc.exe.config
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\vbc.rsp
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\VBCSCompiler.exe
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\EntityFramework.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\EntityFramework.SqlServer.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\System.Web.Helpers.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\System.Web.Mvc.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\System.Web.Razor.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.Razor.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\EntityFramework.xml
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\EntityFramework.SqlServer.xml
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\System.Web.Razor.xml
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.xml
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\System.Web.Webpages.Razor.xml
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\System.Web.Helpers.xml
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\System.Web.Mvc.xml
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Razor.resources.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\obj\Debug\WebDemo02.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\obj\Debug\WebDemo02.dll
+C:\Users\Usuario\Documents\pagina webb\trabajo\WebDemo02\WebDemo02\obj\Debug\WebDemo02.pdb
