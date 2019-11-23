@@ -7,23 +7,3 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebDemo02
-{
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Infrastructure;
-    
-    public partial class promotecEntities : DbContext
-    {
-        public promotecEntities()
-            : base("name=promotecEntities")
-        {
-        }
-    
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            throw new UnintentionalCodeFirstException();
-        }
-    
-    }
-}

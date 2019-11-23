@@ -12,13 +12,14 @@ namespace WebDemo02
     using System;
     using System.Collections.Generic;
     
-    public partial class Evento
+    public partial class usuario
     {
-        public string id { get; set; }
-        public string nombre { get; set; }
-        public System.DateTime fecha { get; set; }
-        public string lugar { get; set; }
-        public string hora { get; set; }
         public string dni { get; set; }
+        public string nombre { get; set; }
+        public string apellidos { get; set; }
+        public string direccion { get; set; }
+        public string telefono { get; set; }
+        public string contraseña { get; set; }
+        public string user_type { get; set; }
     }
 }

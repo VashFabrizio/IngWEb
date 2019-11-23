@@ -21,7 +21,7 @@ namespace WebDemo02.Controllers
         public JsonResult listarTodo()
         {
             Evento c = new Evento();
-            promotecEntities a = new promotecEntities();
+            promotecEntities1 a = new promotecEntities1();
 
             IEnumerable<WebDemo02.Models.Eventos> ahora= a.Evento.Select(x => new WebDemo02.Models.Eventos
             {

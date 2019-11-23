@@ -11,6 +11,7 @@ namespace WebDemo02.Models
         public DateTime fecha { get; set; }
         public string lugar { get; set; }
         public string hora { get; set; }
+        public string  dni { get; set; }
 
         public static implicit operator Evento(Eventos model)
         {
@@ -20,7 +21,8 @@ namespace WebDemo02.Models
                 nombre = model.nombre,
                 fecha = model.fecha,
                 lugar = model.lugar,
-                hora = model.hora
+                hora = model.hora,
+                dni = model.dni
             };
         }
         public static implicit operator Eventos(Evento model)
@@ -31,7 +33,8 @@ namespace WebDemo02.Models
                 nombre = model.nombre,
                 fecha = model.fecha,
                 lugar = model.lugar,
-                hora = model.hora
+                hora = model.hora,
+                dni = model.dni
             };
         }
     }

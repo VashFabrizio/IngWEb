@@ -18,13 +18,15 @@ namespace WebDemo02.Controllers
         [HttpPost]
         public JsonResult PostMethod(WebDemo02.Models.Eventos evento)
         {
-            promotecEntities a = new promotecEntities();
+            promotecEntities1 a = new promotecEntities1();
             WebDemo02.Models.Eventos person = new WebDemo02.Models.Eventos
             {
                 nombre = evento.nombre,
                 fecha = evento.fecha,
                 lugar = evento.lugar,
                 hora = evento.hora,
+                dni = "73144681"
+
             };
             try
             {
@@ -33,7 +35,7 @@ namespace WebDemo02.Controllers
                 a.SaveChanges();
                 return Json("Registrado");
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 return Json("va");
                 throw;
