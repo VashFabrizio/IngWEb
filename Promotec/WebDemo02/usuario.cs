@@ -14,6 +14,12 @@ namespace WebDemo02
     
     public partial class usuario
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public usuario()
+        {
+            this.Evento = new HashSet<Evento>();
+        }
+    
         public string dni { get; set; }
         public string nombre { get; set; }
         public string apellidos { get; set; }
@@ -21,5 +27,8 @@ namespace WebDemo02
         public string telefono { get; set; }
         public string contraseña { get; set; }
         public string user_type { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Evento> Evento { get; set; }
     }
 }

@@ -14,19 +14,20 @@ namespace WebDemo02.Controllers
             return View();
         }
 
-
+        
         [HttpPost]
         public JsonResult PostMethod(WebDemo02.Models.Eventos evento)
         {
-            promotecEntities1 a = new promotecEntities1();
+            string dni = LoginController.DNI;
+            promotecEntities3 a = new promotecEntities3();
             WebDemo02.Models.Eventos person = new WebDemo02.Models.Eventos
             {
                 nombre = evento.nombre,
                 fecha = evento.fecha,
                 lugar = evento.lugar,
                 hora = evento.hora,
-                dni = "73144681"
-
+                dni = dni,
+                Usuario = a.usuario.Where(x => x.dni == dni).FirstOrDefault()
             };
             try
             {
@@ -37,7 +38,7 @@ namespace WebDemo02.Controllers
             }
             catch (Exception e)
             {
-                return Json("va");
+                return Json(e);
                 throw;
             }
 

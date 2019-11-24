@@ -12,6 +12,7 @@ namespace WebDemo02.Models
         public string lugar { get; set; }
         public string hora { get; set; }
         public string  dni { get; set; }
+        public virtual usuario Usuario { get; set; }
 
         public static implicit operator Evento(Eventos model)
         {
@@ -22,7 +23,8 @@ namespace WebDemo02.Models
                 fecha = model.fecha,
                 lugar = model.lugar,
                 hora = model.hora,
-                dni = model.dni
+                dni = model.dni,
+                usuario = model.Usuario
             };
         }
         public static implicit operator Eventos(Evento model)

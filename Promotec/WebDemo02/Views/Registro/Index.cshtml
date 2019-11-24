@@ -2,85 +2,102 @@
 @{
     ViewBag.Title = "Index";
 }
-<link href="~/Content/Login/Registro.css" rel="stylesheet" />
+@{
+    Layout = null;
+}
 
-<div class="form">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registro </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!---CSS-->
+    <link rel="icon" type="image/png" href="~/Content/favicon.ico" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/font_/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/icon-font.min.css" rel="stylesheet" />
+    <link href="~/Content/Login/animate.css" rel="stylesheet" />
+    <link href="~/Content/Login/hamburgers.min.css" rel="stylesheet" />
+    <link href="~/Content/Login/animsition.min.css" rel="stylesheet" />
+    <link href="~/Content/Login/select2.min.css" rel="stylesheet" />
+    <link href="~/Content/Login/daterangepicker.css" rel="stylesheet" />
+    <link href="~/Content/main.css" rel="stylesheet" />
+    <link href="~/Content/util.css" rel="stylesheet" />
 
-    <ul class="tab-group">
-        <li class="tab active"><a href="#signup">Registrarse</a></li>
-    </ul>
+</head>
+<body>
+    <div class="limiter">
+        <div class="container-login100" style="background-image: url(../../Content/bg-01.jpg);">
+            <div class="wrap-login100 p-t-30 p-b-50">
+                <span class="login100-form-title p-b-41">
+                    Registro
+                </span>
+                <form class="login100-form validate-form p-b-33 p-t-5" id="id">
 
-    <div class="tab-content">
-        <div id="signup">
-            <h1>El registro es gratis</h1>
-
-            <form action="/" method="post">
-
-                <div class="top-row">
-                    <div class="field-wrap">
-                        <label>
-                            Nombre<span class="req">*</span>
-                        </label>
-                        <input type="text" required autocomplete="off" />
+                    <div class="wrap-input100 validate-input" data-validate="Ingrese dni">
+                        <input class="input100" id="dni" type="text" name="dni" placeholder="Ingrese Dni">
+                        <span class="focus-input100" data-placeholder="&#xe82a;"></span>
                     </div>
 
-                    <div class="field-wrap">
-                        <label>
-                            Apellido<span class="req">*</span>
-                        </label>
-                        <input type="text" required autocomplete="off" />
+                    <div class="wrap-input100 validate-input" data-validate="Ingrese Nombre de la Empresa">
+                        <input class="input100" id="nombre" type="text" name="nombre" placeholder="Ingrese Nombre de la Empresa">
+                        <span class="focus-input100" data-placeholder="&#xe802;"></span>
                     </div>
-                </div>
 
-                <div class="field-wrap">
-                    <label>
-                        Correo<span class="req">*</span>
-                    </label>
-                    <input type="email" required autocomplete="off" />
-                </div>
+                    <div class="wrap-input100 validate-input" data-validate="Ingrese direccion">
+                        <input class="input100" id="direccion" type="text" name="direccion" placeholder="Ingrese Direccion">
+                        <span class="focus-input100" data-placeholder="&#xe801;"></span>
+                    </div>
 
-                <div class="field-wrap">
-                    <label>
-                        Contraseña<span class="req">*</span>
-                    </label>
-                    <input type="password" required autocomplete="off" />
-                </div>
+                    <div class="wrap-input100 validate-input" data-validate="Ingrese telefono">
+                        <input class="input100" id="telefono" type="text" name="telefono" placeholder="Ingrese Telefono">
+                        <span class="focus-input100" data-placeholder="&#xe830;"></span>
+                    </div>
 
-                <button type="submit" class="button button-block" />comencemos</button>
+                    <div class="wrap-input100 validate-input" data-validate="Ingrese contraseña">
+                        <input class="input100" id="contraseña" type="password" name="contraseña" placeholder="Ingrese Contraseña">
+                        <span class="focus-input100" data-placeholder="&#xe80f;"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Ingrese contraseña">
+                        <select id="type" class="input100">
+                            <option value="dj">DJ</option>
+                            <option value="Payaso">Payaso</option>
+                            <option value="Cheff">Cheff</option>
+                            <option value="Local">Local</option>
+                            <option value="Decoraciones">Decoraciones</option>
+                        </select>
+                        <span class="focus-input100" data-placeholder="&#xe82b;"></span>
+                    </div>
 
-            </form>
+                    <div class="container-login100-form-btn m-t-32">
+                        <div class="spinner-grow text-success" role="status" style="margin-right:20px ; visibility:hidden" id="spinner">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                        <input type="button" id="btn" class="btn btn-success"  value="Completar" onclick="registro()">
+                    </div>
+                    <div>
+                        <a style="margin-left:20px" href="/Login" class="btn btn-secondary"> &larr;</a>
+                    </div>
 
+                </form>
+            </div>
         </div>
+    </div>
 
-        <div id="login">
-            <h1>Welcome Back!</h1>
 
-            <form action="/" method="post">
+    <div id="dropDownSelect1"></div>
+    <!---SCRIPTS-->
+    <script src="~/Scripts/Login/jquery-3.2.1.min.js"></script>
+    <script src="~/Scripts/Login/animsition.min.js"></script>
+    <script src="~/Scripts/Login/popper.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/Login/select2.min.js"></script>
+    <script src="~/Scripts/Login/moment.min.js"></script>
+    <script src="~/Scripts/Login/daterangepicker.js"></script>
+    <script src="~/Scripts/Login/countdowntime.js"></script>
+    <script src="~/Scripts/main.js"></script>
+    <script src="~/Scripts/registraruser.js"></script>
 
-                <div class="field-wrap">
-                    <label>
-                        Email Address<span class="req">*</span>
-                    </label>
-                    <input type="email" required autocomplete="off" />
-                </div>
-
-                <div class="field-wrap">
-                    <label>
-                        Password<span class="req">*</span>
-                    </label>
-                    <input type="password" required autocomplete="off" />
-                </div>
-
-                <p class="forgot"><a href="#">Forgot Password?</a></p>
-
-                <button class="button button-block" />Log In</button>
-
-            </form>
-
-        </div>
-
-    </div><!-- tab-content -->
-
-</div> <!-- /form -->
-<script src="~/Scripts/jquery-1.10.2.min.js"></script>
-<script src="~/Scripts/Registro.js"></script>
+</body>
+</html>

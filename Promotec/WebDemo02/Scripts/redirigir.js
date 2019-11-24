@@ -1,15 +1,27 @@
 ﻿
 function a() {
-    var name = document.getElementById("name");
-    var pass = document.getElementById("pass");
+    var name2 = document.getElementById("name");
+    var pass2 = document.getElementById("pass");
 
-    console.log(name.value);
-    console.log(pass.value);
-    if (name.value == "123" && pass.value == "123") {
-        var url = $("#RedirectTo").val();
-        window.location.href = url;
-    }
-    else {
-        alert("Ingrese los datos nuevamente");
-    }
+    var modelUSer = {};
+    modelUSer.dni = $(name2).val();
+    modelUSer.contraseña = $(pass2).val();
+
+    $.ajax({
+        type: "POST",
+        data: JSON.stringify(modelUSer),
+        url: "/Login/Verify",
+        contentType: "application/json"
+    }).done(function (res) {
+        
+        if (res == "success") {
+            var url = $("#RedirectTo").val();
+            window.location.href = url;
+        }
+        else {
+            alert("Ingrese los datos nuevamente");
+        }
+       
+    });
+
 }

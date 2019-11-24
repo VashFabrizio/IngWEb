@@ -13,10 +13,10 @@ namespace WebDemo02
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class promotecEntities : DbContext
+    public partial class promotecEntities3 : DbContext
     {
-        public promotecEntities()
-            : base("name=promotecEntities")
+        public promotecEntities3()
+            : base("name=promotecEntities3")
         {
         }
     
@@ -25,5 +25,7 @@ namespace WebDemo02
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Evento> Evento { get; set; }
+        public virtual DbSet<usuario> usuario { get; set; }
     }
 }

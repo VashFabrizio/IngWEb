@@ -4,13 +4,43 @@
     <Key>
       <PropertyRef Name="id" />
     </Key>
-    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="fecha" Type="date" Nullable="false" />
     <Property Name="lugar" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="hora" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="dni" Type="varchar" MaxLength="10" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
   </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="dni" />
+    </Key>
+    <Property Name="dni" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="apellidos" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="direccion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="telefono" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="contraseña" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="user_type" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Evento_usuario">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="0..1" />
+    <End Role="Evento" Type="Self.Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="dni" />
+      </Principal>
+      <Dependent Role="Evento">
+        <PropertyRef Name="dni" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <EntityContainer Name="promotecModelStoreContainer">
     <EntitySet Name="Evento" EntityType="Self.Evento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuario" EntityType="Self.usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Evento_usuario" Association="Self.FK_Evento_usuario">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="Evento" EntitySet="Evento" />
+    </AssociationSet>
   </EntityContainer>
 </Schema>

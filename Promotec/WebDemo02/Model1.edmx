@@ -9,14 +9,44 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="fecha" Type="date" Nullable="false" />
           <Property Name="lugar" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="hora" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="dni" Type="varchar" MaxLength="10" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
         </EntityType>
+        <EntityType Name="usuario">
+          <Key>
+            <PropertyRef Name="dni" />
+          </Key>
+          <Property Name="dni" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="apellidos" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="direccion" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="telefono" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="contraseña" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="user_type" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Evento_usuario">
+          <End Role="usuario" Type="Self.usuario" Multiplicity="0..1" />
+          <End Role="Evento" Type="Self.Evento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="usuario">
+              <PropertyRef Name="dni" />
+            </Principal>
+            <Dependent Role="Evento">
+              <PropertyRef Name="dni" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <EntityContainer Name="promotecModelStoreContainer">
           <EntitySet Name="Evento" EntityType="Self.Evento" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="usuario" EntityType="Self.usuario" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Evento_usuario" Association="Self.FK_Evento_usuario">
+            <End Role="usuario" EntitySet="usuario" />
+            <End Role="Evento" EntitySet="Evento" />
+          </AssociationSet>
         </EntityContainer>
       </Schema>
     </edmx:StorageModels>
@@ -27,29 +57,75 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="fecha" Type="DateTime" Nullable="false" Precision="0" />
           <Property Name="lugar" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="hora" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="dni" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="usuario" Relationship="Self.FK_Evento_usuario" FromRole="Evento" ToRole="usuario" />
         </EntityType>
-        <EntityContainer Name="promotecEntities" annotation:LazyLoadingEnabled="true">
+        <EntityType Name="usuario">
+          <Key>
+            <PropertyRef Name="dni" />
+          </Key>
+          <Property Name="dni" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="apellidos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="telefono" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="contraseña" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="user_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Evento" Relationship="Self.FK_Evento_usuario" FromRole="usuario" ToRole="Evento" />
+        </EntityType>
+        <Association Name="FK_Evento_usuario">
+          <End Role="usuario" Type="Self.usuario" Multiplicity="0..1" />
+          <End Role="Evento" Type="Self.Evento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="usuario">
+              <PropertyRef Name="dni" />
+            </Principal>
+            <Dependent Role="Evento">
+              <PropertyRef Name="dni" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="promotecEntities3" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Evento" EntityType="Self.Evento" />
+          <EntitySet Name="usuario" EntityType="Self.usuario" />
+          <AssociationSet Name="FK_Evento_usuario" Association="Self.FK_Evento_usuario">
+            <End Role="usuario" EntitySet="usuario" />
+            <End Role="Evento" EntitySet="Evento" />
+          </AssociationSet>
         </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="promotecModelStoreContainer" CdmEntityContainer="promotecEntities">
+        <EntityContainerMapping StorageEntityContainer="promotecModelStoreContainer" CdmEntityContainer="promotecEntities3">
           <EntitySetMapping Name="Evento">
             <EntityTypeMapping TypeName="promotecModel.Evento">
               <MappingFragment StoreEntitySet="Evento">
-                <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="nombre" ColumnName="nombre" />
                 <ScalarProperty Name="fecha" ColumnName="fecha" />
                 <ScalarProperty Name="lugar" ColumnName="lugar" />
                 <ScalarProperty Name="hora" ColumnName="hora" />
+                <ScalarProperty Name="dni" ColumnName="dni" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="usuario">
+            <EntityTypeMapping TypeName="promotecModel.usuario">
+              <MappingFragment StoreEntitySet="usuario">
+                <ScalarProperty Name="dni" ColumnName="dni" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+                <ScalarProperty Name="direccion" ColumnName="direccion" />
+                <ScalarProperty Name="telefono" ColumnName="telefono" />
+                <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+                <ScalarProperty Name="user_type" ColumnName="user_type" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

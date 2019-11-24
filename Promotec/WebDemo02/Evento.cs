@@ -14,11 +14,13 @@ namespace WebDemo02
     
     public partial class Evento
     {
-        public string id { get; set; }
         public string nombre { get; set; }
         public System.DateTime fecha { get; set; }
         public string lugar { get; set; }
         public string hora { get; set; }
         public string dni { get; set; }
+        public int id { get; set; }
+    
+        public virtual usuario usuario { get; set; }
     }
 }

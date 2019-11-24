@@ -4,34 +4,42 @@
 }
 <body style="background-color:lightslategrey">
     <div class="card mt-5" ">
-        <div class="card-header  bg-dark"> 
+        <div class="card-header  bg-dark">
             <h3 class="card-title badge-dark"> Registrar Eventos</h3>
         </div>
-        <div class="card-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <label class="text-capitalize">Nombre</label>
-                        <input type="text" name="txtName" id="txtName" value="" />
+        <form id="form" method="post">
+            <div class="card-body">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-sm">
+                            <label class="text-capitalize">Nombre: </label>
+                            <input type="text" placeholder=" Ingrese el Evento" name="txtName" id="txtName" value="" />
+                        </div>
+                        <div class="col-sm">
+                            <label class="text-capitalize">Lugar: </label>
+                            <input type="text" placeholder=" Ingrese el lugar" name="name" id="txtlugar" value="" />
+                        </div>
+                        <div class="col-sm">
+                            <label class="text-capitalize">Fecha: </label>
+                            <input type="date" placeholder=" Ingrese la Fecha" name="name" id="txtfecha" value="" />
+                        </div>
+                        <div class="col-sm">
+                            <label class="text-capitalize">Hora: </label>
+                            <input type="text" placeholder=" Ingrese la hora" name="name" id="txthora" value="" />
+                        </div>
                     </div>
-                    <div class="col-sm">
-                        <label class="text-capitalize">Lugar</label>
-                        <input type="text" name="name" id="txtlugar" value="" />
-                    </div>
-                    <div class="col-sm">
-                        <label class="text-capitalize">Fecha</label>
-                        <input type="date" name="name" id="txtfecha" value="" />
-                    </div>
-                    <div class="col-sm">
-                        <label class="text-capitalize">Hora</label>
-                        <input type="datetime" name="name" id="txthora" value="" />
-                    </div>
+
                 </div>
             </div>
-        </div>
+        </form>
         <div class="card-footer float-right">
-            <Button class="btn-dark" onclick="a()">Guardar</Button>
+            <Button id="btn" class="btn btn-dark" onclick="a()">Guardar</Button>
+            <div class="spinner-grow text-success" role="status" style="margin-right:20px ; visibility:hidden" id="spinner">
+                <span class="sr-only">Loading...</span>
+            </div>
         </div>
+
     </div>
 </body>
 <script src="~/Scripts/jquery-1.10.2.js"></script>

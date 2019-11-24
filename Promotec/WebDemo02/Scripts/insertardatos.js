@@ -5,7 +5,10 @@ function a() {
     var lugar = document.getElementById("txtlugar");
     var fecha = document.getElementById("txtfecha");
     var hora = document.getElementById("txthora");
+    var id = document.getElementById("form");
 
+    document.getElementById("spinner").style.visibility = "visible";
+    document.getElementById("btn").disabled = true;
 
     var modelEvento = {};
     modelEvento.nombre = $(nombre).val();
@@ -20,6 +23,9 @@ function a() {
         url: "/Registrar/PostMethod",
         contentType: "application/json"
     }).done(function (res) {
+        document.getElementById("btn").disabled = false;
+        document.getElementById("spinner").style.visibility = "hidden";
+        id.reset();
         alert(res);
     });
 };

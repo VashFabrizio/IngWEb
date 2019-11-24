@@ -4,13 +4,45 @@
     <Key>
       <PropertyRef Name="id" />
     </Key>
-    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="fecha" Type="DateTime" Nullable="false" Precision="0" />
     <Property Name="lugar" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="hora" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dni" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="usuario" Relationship="Self.FK_Evento_usuario" FromRole="Evento" ToRole="usuario" />
   </EntityType>
-  <EntityContainer Name="promotecEntities" annotation:LazyLoadingEnabled="true">
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="dni" />
+    </Key>
+    <Property Name="dni" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellidos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contraseña" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="user_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Evento" Relationship="Self.FK_Evento_usuario" FromRole="usuario" ToRole="Evento" />
+  </EntityType>
+  <Association Name="FK_Evento_usuario">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="0..1" />
+    <End Role="Evento" Type="Self.Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="dni" />
+      </Principal>
+      <Dependent Role="Evento">
+        <PropertyRef Name="dni" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="promotecEntities3" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Evento" EntityType="Self.Evento" />
+    <EntitySet Name="usuario" EntityType="Self.usuario" />
+    <AssociationSet Name="FK_Evento_usuario" Association="Self.FK_Evento_usuario">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="Evento" EntitySet="Evento" />
+    </AssociationSet>
   </EntityContainer>
 </Schema>
