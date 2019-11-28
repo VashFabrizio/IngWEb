@@ -27,7 +27,7 @@ namespace WebDemo02.Controllers
                 lugar = evento.lugar,
                 hora = evento.hora,
                 dni = dni,
-                Usuario = a.usuario.Where(x => x.dni == dni).FirstOrDefault()
+                Usuario = a.usuario.FirstOrDefault(x => x.dni == dni)
             };
             try
             {

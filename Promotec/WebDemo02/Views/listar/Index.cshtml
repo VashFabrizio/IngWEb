@@ -5,17 +5,38 @@
 
 
 <body style="background-color:lightslategrey">
-    <div class="card mt-5" >
-        <div class="card-header">
-            <h3>Eventos registrados</h3>
-        </div>
-        <div class="card-body">
-            <table id="miTabla" class="table table-borderless"></table>
-        </div>
-
+<div class="card card-primary mt-5">
+    <div class="card-header">
+        <h3 class="title text-dark ">Busqueda de Eventos</h3>
     </div>
-
-
+    <div class="card-body">
+        <div class="row">
+            <div class="form-group col-md-3">
+                <label>Fecha :</label>
+                <input name="date" id="date" class="form-control" type="date" name="date">
+            </div>
+            <div class="form-group col-md-3">
+                <label>Nombre de Evento :</label>
+                <input name="name" id="name" class="form-control" placeholder="Nombre de Evento" type="text" name="name">
+            </div>
+            <div class="form-group col-md-3">
+                <label>Hora :</label>
+                <input name="name" id="time" class="form-control" placeholder="Hora" type="text" name="name">
+            </div>
+        </div>
+        <div class="footer text-right">
+            <button class="btn btn-dark" onclick="find()"> Buscar</button>
+        </div>
+    </div>
+</div>
+<div class="card mt-5">
+    <div class="card-body">
+        <div class="alert alert-info" role="alert" id="info">
+            No existen eventos para los filtros ingresados
+        </div>
+        <table id="miTabla" class="table table-borderless"></table>
+    </div>
+</div>
     <script src="~/Scripts/jquery-1.10.2.js"></script>
     <script src="~/Scripts/Listarevento.js"></script>
 </body>
